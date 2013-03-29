@@ -8,8 +8,8 @@ Version: 1.0
 Author URI: http://www.wnet.org
 */
 
-require_once(WP_PLUGIN_DIR . '/cove-api/cove-api-auth.php');
-require_once(WP_PLUGIN_DIR . '/cove-api/cove-api-settings.php');
+require_once(WP_PLUGIN_DIR . '/pbs-coveapi-wp-plugin/cove-api-auth.php');
+require_once(WP_PLUGIN_DIR . '/pbs-coveapi-wp-plugin/cove-api-settings.php');
 
     //set the special key
     $options = get_option('cove_api_settings');
